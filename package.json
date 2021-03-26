@@ -1,5 +1,10 @@
 {
   "name": "repo-questions",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luguin444/repo-questions.git",
+  "author": "luguin444 <gustavo.ganimi@engenharia.ufjf.br>",
+  "license": "MIT"
 }
