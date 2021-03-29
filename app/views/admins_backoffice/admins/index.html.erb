@@ -1,0 +1,26 @@
+<h1>Listagem Admins</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>id</th>
+      <th>email</th>
+      <th style="padding-left: 70px">commands</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @admins.each do |admin| %>
+        <tr>
+            <td> <%= admin.id %> </td>
+            <td> <%= admin.email %> </td>
+            <td>
+                <%= link_to 'Show', admins_backoffice_welcome_index_path, style: "margin-right: 40px"%>
+                <%= link_to 'Edit', edit_admins_backoffice_admin_path(admin.id), style: "margin-right: 40px" %>
+                <%= link_to 'Delete', admins_backoffice_welcome_index_path %>
+            </td>      
+        </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<p class = "teste"> TESTANDO CSS  </p>

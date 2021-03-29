@@ -9835,6 +9835,11 @@ a:focus {
   animation-timing-function: transform cubic-bezier(0.18, 1.25, 0.4, 1), opacity cubic-bezier(0, 1, 0.4, 1);
 }
 
+.personal-fix {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
